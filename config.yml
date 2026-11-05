@@ -1,0 +1,92 @@
+backend:
+  name: github
+  repo: NellyNellz331/NellyNellz-website
+  branch: main
+  # GitHub OAuth requires a separate authentication service.
+  # Do not assume the editor can log in until this is configured.
+media_folder: "uploads"
+public_folder: "/uploads"
+collections:
+  - name: "homepage"
+    label: "Homepage"
+    files:
+      - label: "Homepage"
+        name: "homepage"
+        file: "content/homepage.json"
+        format: "json"
+        fields:
+          - {label: "Small introduction", name: "eyebrow", widget: "string"}
+          - {label: "Main headline", name: "title", widget: "string"}
+          - {label: "Tagline", name: "subtitle", widget: "string"}
+          - {label: "Tree artwork", name: "hero_image", widget: "image"}
+  - name: "music"
+    label: "Music"
+    files:
+      - label: "Music content"
+        name: "music"
+        file: "content/music.json"
+        format: "json"
+        fields:
+          - {label: "Music 0", name: "music_0", widget: "text"}
+          - {label: "Music 1", name: "music_1", widget: "text"}
+          - {label: "Music 2", name: "music_2", widget: "text"}
+          - {label: "Music 3", name: "music_3", widget: "text"}
+          - {label: "Music 4", name: "music_4", widget: "text"}
+          - {label: "Music 5", name: "music_5", widget: "text"}
+  - name: "stories"
+    label: "Stories"
+    files:
+      - label: "Stories content"
+        name: "stories"
+        file: "content/stories.json"
+        format: "json"
+        fields:
+          - {label: "Stories 0", name: "stories_0", widget: "text"}
+          - {label: "Stories 1", name: "stories_1", widget: "text"}
+          - label: "Entries"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Category", name: "category", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Status", name: "status", widget: "string"}
+  - name: "books"
+    label: "Books"
+    files:
+      - label: "Books content"
+        name: "books"
+        file: "content/books.json"
+        format: "json"
+        fields:
+          - {label: "Books 0", name: "books_0", widget: "text"}
+          - {label: "Books 1", name: "books_1", widget: "text"}
+          - label: "Entries"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Category", name: "category", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Status", name: "status", widget: "string"}
+  - name: "about"
+    label: "About"
+    files:
+      - label: "About content"
+        name: "about"
+        file: "content/about.json"
+        format: "json"
+        fields:
+          - {label: "About 0", name: "about_0", widget: "text"}
+          - {label: "About 1", name: "about_1", widget: "text"}
+          - {label: "About 2", name: "about_2", widget: "text"}
+  - name: "contact"
+    label: "Contact"
+    files:
+      - label: "Contact content"
+        name: "contact"
+        file: "content/contact.json"
+        format: "json"
+        fields:
+          - {label: "Contact 0", name: "contact_0", widget: "text"}
+          - {label: "Contact 1", name: "contact_1", widget: "text"}

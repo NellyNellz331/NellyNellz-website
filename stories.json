@@ -1,0 +1,18 @@
+{
+  "stories_0": "Stories after dark.",
+  "stories_1": "Original audio fiction and psychological suspense. Step closer. Listen carefully.",
+  "items": [
+    {
+      "category": "Psychological horror / Audio fiction",
+      "title": "The Invitation",
+      "description": "Some doors should remain closed. An original story set on Baleful Lane.",
+      "status": "Coming soon"
+    },
+    {
+      "category": "Original audio storytelling",
+      "title": "Beyond the silence",
+      "description": "More stories are taking shape. Not every voice can be trusted.",
+      "status": "More worlds ahead"
+    }
+  ]
+}

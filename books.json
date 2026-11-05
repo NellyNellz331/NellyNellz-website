@@ -1,0 +1,18 @@
+{
+  "books_0": "Little stories. Big worlds.",
+  "books_1": "Imagination has no single genre. There is room here for wonder, discovery, and stories that grow with us.",
+  "items": [
+    {
+      "category": "Children's book / In development",
+      "title": "Where Do I Belong?",
+      "description": "A little star's journey to discover where it belongs.",
+      "status": "Coming soon"
+    },
+    {
+      "category": "Future releases",
+      "title": "More to imagine.",
+      "description": "New characters, new adventures, and new reasons to turn the page.",
+      "status": "In the making"
+    }
+  ]
+}
